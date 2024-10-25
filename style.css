@@ -3,7 +3,7 @@
 :root {
     --bg-color: #000000;
     --primary-color: #ff00d4;
-    --secundary-color: #945252;
+    --secundary-color: #b829d4;
     --font: "Afacad Flux", sans-serif;
 }
 body{
@@ -43,4 +43,17 @@ header{
         width: 100%;
         height: 3rem;
         margin-top: 2rem;
+    }
+    .graficos-container{
+        margin: 5rem;
+    }
+    .graficos-container_texto{
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 2rem;
+        border: var(--secundary-color) solid 2px;
+    }
+    span {
+        font-weight: bold;
+        color: var(--secundary-color);
     }
